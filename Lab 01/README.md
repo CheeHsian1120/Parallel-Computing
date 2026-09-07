@@ -1,4 +1,6 @@
-# Prime Number Generation: Performance Benchmarking with Serial, POSIX Threads, and OpenMP
+# Prime Number Generation: Serial, POSIX Threads & OpenMP
+[![POSIX Threads](https://img.shields.io/badge/POSIX%20Threads-00599C?style=for-the-badge&logo=c&logoColor=white)](https://img.shields.io/badge/<LABEL>-<HEX_COLOR>?style=for-the-badge&logo=<LOGO_NAME>&logoColor=white)
+[![OpenMP](https://img.shields.io/badge/OpenMP-033963?style=for-the-badge&logo=c&logoColor=white)](https://img.shields.io/badge/<LABEL>-<HEX_COLOR>?style=for-the-badge&logo=<LOGO_NAME>&logoColor=white)
 
 ## 📌 Overview
 This project explores and benchmarks the optimization of prime number generation (strictly less than <code>n</code>). It compares a highly optimized Serial C implementation against parallel architectures using **POSIX Threads (Pthreads)** and **OpenMP**. The objective is to evaluate algorithmic efficiency, multi-core scalability, and memory cache utilization under different hardware configurations (8-core vs. 32-core processors).
