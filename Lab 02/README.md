@@ -1,6 +1,9 @@
 # Prime Number Generation: Open MPI & Hybrid (Open MPI + OpenMP)
 [![Open MPI](https://img.shields.io/badge/Open%20MPI-00599C?style=for-the-badge&logo=c&logoColor=white)](#)
 [![OpenMP](https://img.shields.io/badge/OpenMP-033963?style=for-the-badge&logo=c&logoColor=white)](#)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white)
+![AWS ParallelCluster](https://img.shields.io/badge/AWS_ParallelCluster-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 
 ## 📌 Overview
 This project benchmarks and optimizes prime number generation (strictly less than `n`) utilizing distributed-memory parallelism (Open MPI) and a Hybrid approach (Open MPI + OpenMP). The objective is to evaluate algorithmic efficiency, network communication latency, and multi-core scalability across high-performance computing (HPC) environments. By comparing empirical performance against theoretical limits modeled by an extended Amdahl's Law, the project identifies hardware constraints and the impact of workload distribution strategies.
