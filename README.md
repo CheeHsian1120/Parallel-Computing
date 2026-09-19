@@ -36,15 +36,3 @@ The repository is modularized into core conceptual labs and applied system simul
     *   *Reserved for future applied HPC system simulations.*
 -->
 
----
-
-
-
-### Secure File Transfer (SCP)
-Use `scp -r` to securely copy directories between your local machine and the clusters.
-```bash
-# To CAAS HPC
-scp -r ./Lab_01 <credential>@student-caas-headnode.rep.monash.edu:~/Lab_01
-
-# To AWS
-scp -i <keyname>.pem -r ./Lab_01 <username>@<IP>:~/Lab_01
