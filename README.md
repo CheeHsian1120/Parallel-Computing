@@ -16,7 +16,7 @@ All implementations are benchmarked across high-performance environments, includ
 The repository is modularized into core conceptual labs and applied system simulations. *(Navigate to each directory for specific source code, SLURM scripts, and presentation slides).*
 
 ### 🧪 Core Labs (Coding Exercises)
-*   [**Lab 01: Prime Generation (Shared Memory)**]([./Lab_01/](https://github.com/CheeHsian1120/Parallel-Computing/tree/47c1e692683902feff4a48e644e8103b1a041ce3/Lab%2001))
+*   [**Lab 01: Prime Generation (Shared Memory)**](https://github.com/CheeHsian1120/Parallel-Computing/tree/47c1e692683902feff4a48e644e8103b1a041ce3/Lab%2001)
     *   **Tech:** Serial C, POSIX Threads, OpenMP.
     *   **Highlights:** Achieved a lock-free Pthreads design eliminating Mutex overhead. Surpassed Pthread limits using OpenMP `schedule(dynamic, 500)` to eliminate false cache-line sharing, achieving a 15.75x speedup on a 32-core architecture.
 *   [**Lab 02: Prime Generation (Distributed Memory & Hybrid)**](https://github.com/CheeHsian1120/Parallel-Computing/tree/90fcf386e47a8b8d3d462b85fa276de79730f397/Lab%2002)
@@ -28,7 +28,7 @@ The repository is modularized into core conceptual labs and applied system simul
 -->
 
 ### 🛠️ Applied Projects (Theory Exercises)
-*   [**Applied 01: EV Charging Network Topology Simulation**](./Applied_01/)
+*   [**Applied 01: EV Charging Network Topology Simulation**](https://github.com/CheeHsian1120/Parallel-Computing/tree/a7965d1baee2b2f9d6a281afe500f36f35fb3958/Applied%2001)
     *   **Tech:** Hybrid Architecture (Open MPI + OpenMP).
     *   **Highlights:** Architected a highly scalable network combining a 2D Cartesian Mesh (local O(1) probing) with a Star Topology (global routing). Overcame OS context-switching by dedicating 91 CPU cores, and calculated exact multi-phase transmission delays and 1 Mbps bandwidth safety margins.
 <!--
