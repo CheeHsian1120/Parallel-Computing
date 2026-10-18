@@ -19,7 +19,7 @@ The repository is modularized into core conceptual labs and applied system simul
 *   [**Lab 01: Prime Generation (Shared Memory)**](./Lab_01/)
     *   **Tech:** Serial C, POSIX Threads, OpenMP.
     *   **Highlights:** Achieved a lock-free Pthreads design eliminating Mutex overhead. Surpassed Pthread limits using OpenMP `schedule(dynamic, 500)` to eliminate false cache-line sharing, achieving a 15.75x speedup on a 32-core architecture.
-*   [**Lab 02: Prime Generation (Distributed Memory & Hybrid)**](./Lab_02/)
+*   [**Lab 02: Prime Generation (Distributed Memory & Hybrid)**](https://github.com/CheeHsian1120/Parallel-Computing/tree/90fcf386e47a8b8d3d462b85fa276de79730f397/Lab%2002)
     *   **Tech:** Open MPI, Hybrid (Open MPI + OpenMP).
     *   **Highlights:** Implemented block-cyclic partitioning and zero-sorting reductions (`MPI_LOR`). Proved the reality gap in the Extended Amdahl's Law by demonstrating physical network switch saturation limits compared to theoretical scaling curves.
 <!--
