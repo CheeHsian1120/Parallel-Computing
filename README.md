@@ -23,7 +23,7 @@ The repository is modularized into core conceptual labs and applied system simul
     *   **Tech:** Open MPI, Hybrid (Open MPI + OpenMP).
     *   **Highlights:** Implemented block-cyclic partitioning and zero-sorting reductions (`MPI_LOR`). Proved the reality gap in the Extended Amdahl's Law by demonstrating physical network switch saturation limits compared to theoretical scaling curves.
 <!--
-*   [**Lab 03: [Upcoming / Future Lab Placeholder]**](./Lab_03/)
+*   [**Lab 03: [Upcoming / Future Lab Placeholder]**]([./Lab_03/](https://github.com/CheeHsian1120/Parallel-Computing/tree/90a7e005b75673db5baa088882a9851c94f2fa73/Applied%2001))
     *   *Reserved for future distributed computing concepts.*
 -->
 
