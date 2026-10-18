@@ -16,7 +16,7 @@ All implementations are benchmarked across high-performance environments, includ
 The repository is modularized into core conceptual labs and applied system simulations. *(Navigate to each directory for specific source code, SLURM scripts, and presentation slides).*
 
 ### 🧪 Core Labs (Coding Exercises)
-*   [**Lab 01: Prime Generation (Shared Memory)**](./Lab_01/)
+*   [**Lab 01: Prime Generation (Shared Memory)**]([./Lab_01/](https://github.com/CheeHsian1120/Parallel-Computing/tree/47c1e692683902feff4a48e644e8103b1a041ce3/Lab%2001))
     *   **Tech:** Serial C, POSIX Threads, OpenMP.
     *   **Highlights:** Achieved a lock-free Pthreads design eliminating Mutex overhead. Surpassed Pthread limits using OpenMP `schedule(dynamic, 500)` to eliminate false cache-line sharing, achieving a 15.75x speedup on a 32-core architecture.
 *   [**Lab 02: Prime Generation (Distributed Memory & Hybrid)**](https://github.com/CheeHsian1120/Parallel-Computing/tree/90fcf386e47a8b8d3d462b85fa276de79730f397/Lab%2002)
