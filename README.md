@@ -31,8 +31,8 @@ The repository is modularized into core conceptual labs and applied system simul
 *   [**Applied 01: EV Charging Network Topology Simulation**](https://github.com/CheeHsian1120/Parallel-Computing/tree/a7965d1baee2b2f9d6a281afe500f36f35fb3958/Applied%2001)
     *   **Tech:** Hybrid Architecture (Open MPI + OpenMP).
     *   **Highlights:** Architected a highly scalable network combining a 2D Cartesian Mesh (local O(1) probing) with a Star Topology (global routing). Overcame OS context-switching by dedicating 91 CPU cores, and calculated exact multi-phase transmission delays and 1 Mbps bandwidth safety margins.
-<!--
-*   [**Applied 02: [Upcoming / Future Project Placeholder]**](./Applied_02/)
-    *   *Reserved for future applied HPC system simulations.*
--->
+
+*   [**Applied 02: Image Rotation with GPU and HPC Ethical Implications**](https://github.com/CheeHsian1120/Parallel-Computing/tree/eef6b2911d607f3a9e5f7d82385f5f8909c45bd1/Applied%2002)
+    *   **Tech:** GPU, CUDA, CPUDirect Storage
+    *   **Highlights:** Explored GPU image rotation using the CUDA programming model, optimizing memory transfers through Inverse Mapping for coalesced transactions and GPUDirect Storage for direct NVMe-to-GPU routing. Additionally, evaluated the environmental, security, and global accessibility impacts of scaling HPC for AI.
 
