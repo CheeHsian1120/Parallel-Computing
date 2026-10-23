@@ -22,10 +22,11 @@ The repository is modularized into core conceptual labs and applied system simul
 *   [**Lab 02: Prime Generation (Distributed Memory & Hybrid)**](https://github.com/CheeHsian1120/Parallel-Computing/tree/90fcf386e47a8b8d3d462b85fa276de79730f397/Lab%2002)
     *   **Tech:** Open MPI, Hybrid (Open MPI + OpenMP).
     *   **Highlights:** Implemented block-cyclic partitioning and zero-sorting reductions (`MPI_LOR`). Proved the reality gap in the Extended Amdahl's Law by demonstrating physical network switch saturation limits compared to theoretical scaling curves.
-<!--
-*   [**Lab 03: [Upcoming / Future Lab Placeholder]**]([./Lab_03/](https://github.com/CheeHsian1120/Parallel-Computing/tree/90a7e005b75673db5baa088882a9851c94f2fa73/Applied%2001))
-    *   *Reserved for future distributed computing concepts.*
--->
+
+*   [**Lab 03: Lab 03: EV Charging Navigation System (Message Passing & Hybrid)**](https://github.com/CheeHsian1120/Parallel-Computing/tree/89a925969265179ebeec8b5389c5e3f43083f0af/Lab%2003)
+    *   **Tech:** Open MPI, OpenMP.
+    *   **Highlights:** Evolved a 2D mesh charging network from a scheduled token-blocking baseline to a fully asynchronous event-driven state machine to hide network latency. Optimized base station routing utilizing a Manhattan diamond ripple search with dynamic shortcut jumping.
+
 
 ### 🛠️ Applied Projects (Theory Exercises)
 *   [**Applied 01: EV Charging Network Topology Simulation**](https://github.com/CheeHsian1120/Parallel-Computing/tree/a7965d1baee2b2f9d6a281afe500f36f35fb3958/Applied%2001)
